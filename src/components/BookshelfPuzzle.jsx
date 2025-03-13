@@ -1,4 +1,3 @@
-// BookshelfPuzzle.js
 import React, { useState, useEffect } from 'react';
 import bookshelfImage from '../assets/images/bookshelf.png';
 import book1 from '../assets/images/book1.png';
@@ -102,7 +101,7 @@ const BookshelfPuzzle = ({ onSolve, onBack, isSolved,onHover }) => {
       </div>
       <button
         onClick={onBack}
-        onMouseEnter={() => onHover('Гостинная')}
+        onMouseEnter={() => onHover('Гостиная')}
         onMouseLeave={() => onHover('')}
         style={{
           position: 'absolute',
