@@ -98,7 +98,7 @@ const WiringPuzzle = ({ onSolve, onBack, isSolved, onHover }) => {
       )}
       <button
         onClick={onBack}
-        onMouseEnter={() => onHover('Гостинная')}
+        onMouseEnter={() => onHover('Гостиная')}
         onMouseLeave={() => onHover('')}
         style={{
           position: 'absolute',
